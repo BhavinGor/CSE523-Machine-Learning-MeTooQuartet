@@ -8,6 +8,8 @@ The dataset we are using is basically from the Safecity.
 Firstly, the dataset was acquired from the Safecity. After acquiring the dataset, the dataset was preprocessed, Exploratory Data Analysis was performed and statistical and
 graphical representations were carried out.
 
+Our main aim was to classify the category of the assault from the discription of the incident. 
+
 Most of the important data was in text form, hence it was necessary to implement TF-IDFvectorizer and CountVectorizer so that the data can be used for feature extraction. Initially, the following classification algorithms i.e.LogisticRegression, RandomForestClassifier, LinearSVC, and MultinomialNB were implemented.
 
 We also tried to use PCA for dimensionality reduction and tried to implement above algorithms.
